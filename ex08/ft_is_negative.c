@@ -6,13 +6,13 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 09:25:07 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/07 09:33:39 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/07 10:41:07 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+// #include <unistd.h>
 
-void	ft_putchar(char c);
+// void	ft_putchar(char c);
 // void	ft_is_negative(int n);
 
 // int	main(void)
@@ -32,7 +32,7 @@ void	ft_is_negative(int n)
 		ft_putchar('N');
 }
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+// void	ft_putchar(char c)
+// {
+// 	write(1, &c, 1);
+// }
