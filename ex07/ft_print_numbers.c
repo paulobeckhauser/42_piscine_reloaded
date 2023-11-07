@@ -6,13 +6,13 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 09:17:56 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/07 10:46:40 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/07 11:21:57 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 // #include <unistd.h>
 
-// void	ft_putchar(char c);
+void	ft_putchar(char c);
 // void	ft_print_numbers(void);
 
 // int	main(void)
