@@ -6,35 +6,42 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 16:43:33 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/07 18:44:35 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/07 19:06:21 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int	ft_iterative_factorial(int nb);
+int	ft_iterative_factorial(int nb);
 
-// int	main(void)
-// {
-// 	int	test;
-// 	int	factorial_test;
+int	main(void)
+{
+	int	test;
+	int	factorial_test;
 
-// 	test = 4;
-// 	factorial_test = ft_iterative_factorial(test);
-// 	printf("%d", factorial_test);
-// }
+	test = 12;
+	factorial_test = ft_iterative_factorial(test);
+	printf("%d", factorial_test);
+}
 
 int	ft_iterative_factorial(int nb)
 {
 	int	i;
 	int	result;
 
-	i = 2;
-	result = 2;
-	while (i < nb)
+	if	(nb == 0)
+		result = 1;
+	else if (nb < 0 | nb >= 13)
+		result = 0;
+	else
 	{
-		result = result * (i + 1);
-		i++;
+		i = 1;
+		result = 1;
+		while (i < nb)
+		{
+			result = result * (i + 1);
+			i++;
+		}
 	}
 	return (result);
 }
