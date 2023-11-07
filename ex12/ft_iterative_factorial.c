@@ -6,7 +6,7 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 16:43:33 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/07 19:06:21 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/07 19:10:09 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int	ft_iterative_factorial(int nb)
 	int	i;
 	int	result;
 
-	if	(nb == 0)
+	if (nb == 0)
 		result = 1;
 	else if (nb < 0 | nb >= 13)
 		result = 0;
