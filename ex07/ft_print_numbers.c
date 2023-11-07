@@ -6,34 +6,34 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 09:17:56 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/07 09:21:24 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/07 09:36:32 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putchar(char c);
-// void    ft_print_numbers(void);
+void	ft_putchar(char c);
+// void	ft_print_numbers(void);
 
-// int main(void)
+// int	main(void)
 // {
-//     ft_print_numbers();
-//     return (0);
+// 	ft_print_numbers();
+// 	return (0);
 // }
 
-void    ft_print_numbers(void)
+void	ft_print_numbers(void)
 {
-    char digit;
+	char	digit;
 
-    digit = '0';
-    while(digit <= '9')
-    {
-        ft_putchar(digit);
-        digit++;
-    } 
+	digit = '0';
+	while (digit <= '9')
+	{
+		ft_putchar(digit);
+		digit++;
+	}
 }
 
-void    ft_putchar(char c)
+void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
