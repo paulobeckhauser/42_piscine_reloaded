@@ -6,7 +6,7 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 13:21:28 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/08 13:46:45 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/08 15:32:53 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@
 //     int diff_real;
 //     int diff_built;
 
-//     str1 = "b";
-//     str2 = "a";
+//     str1 = "Hello";
+//     str2 = "Hello!";
 //     diff_real = strcmp(str1, str2);
 //     diff_built = ft_strcmp(str1, str2);
 //     printf("The value of using real function is: %d\n", diff_real);
@@ -35,7 +35,7 @@ int	ft_strcmp(char *s1, char *s2)
 	int	i;
 
 	i = 0;
-	if ((*s1 || *s2) && (*s1 != *s2))
+	if ((*s1 || *s2) || (*s1 != *s2))
 	{
 		while (s1[i] == s2[i])
 		{
