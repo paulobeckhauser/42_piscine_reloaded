@@ -6,11 +6,12 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 13:50:47 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/10 15:12:22 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/10 23:49:30 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+
 // #include <stdio.h>
 
 // int	*ft_range(int min, int max);
@@ -25,10 +26,12 @@
 // 	minimum = -2;
 // 	maximum = 3;
 // 	array_test = ft_range(minimum, maximum);
-// 	printf("%d", array_test[0]);
-// 	printf("%d", array_test[1]);
-// 	printf("%d", array_test[2]);
-// 	printf("%d", array_test[3]);
+// 	printf("%d\n", array_test[0]);
+// 	printf("%d\n", array_test[1]);
+// 	printf("%d\n", array_test[2]);
+// 	printf("%d\n", array_test[3]);
+// 	return (0);
+
 // }
 
 int	*ft_range(int min, int max)
@@ -48,9 +51,8 @@ int	*ft_range(int min, int max)
 			min++;
 			i++;
 		}
+		return (array);
 	}
 	else
-		array = (int *)malloc(sizeof(int) * (1));
-	array[i] = '\0';
-	return (array);
+		return (NULL);
 }
