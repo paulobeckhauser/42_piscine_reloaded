@@ -6,7 +6,7 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 15:37:06 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/10 23:44:59 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/11 00:02:45 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ int	main(int argc, char **argv)
 
 	i = 1;
 	j = 0;
+	(void)argc;
 	while (argv[i])
 	{
 		while (argv[i][j])
