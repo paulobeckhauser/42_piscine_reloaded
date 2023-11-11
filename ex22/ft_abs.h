@@ -6,13 +6,13 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/11 11:38:59 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/11 12:04:03 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/11 18:07:46 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_abs(int i)
-{
-	if (i < 0)
-		i = -i;
-	return (i);
-}
+#ifndef FT_ABS_H
+# define FT_ABS_H
+
+# define ABS(Value) Value < 0 ? -Value : Value
+
+#endif
