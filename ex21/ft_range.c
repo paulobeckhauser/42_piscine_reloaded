@@ -6,7 +6,7 @@
 /*   By: pabeckha <pabeckha@student.42wolfsburg.de> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/10 13:50:47 by pabeckha          #+#    #+#             */
-/*   Updated: 2023/11/10 23:49:30 by pabeckha         ###   ########.fr       */
+/*   Updated: 2023/11/13 07:56:35 by pabeckha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,15 +21,19 @@
 // 	int	*array_test;
 // 	int	minimum;
 // 	int	maximum;
+// 	int i;
 
 // 	array_test = (int *)malloc(sizeof(int) * 10);
-// 	minimum = -2;
-// 	maximum = 3;
+// 	minimum = -20;
+// 	maximum = -1;
 // 	array_test = ft_range(minimum, maximum);
-// 	printf("%d\n", array_test[0]);
-// 	printf("%d\n", array_test[1]);
-// 	printf("%d\n", array_test[2]);
-// 	printf("%d\n", array_test[3]);
+// 	i = 0;
+// 	while(array_test[i] != '\0')
+// 	{
+// 		printf("%d\n", array_test[i]);
+// 		i++;
+// 	}
+// 	// printf("%d\n", array_test[6]);
 // 	return (0);
 
 // }
